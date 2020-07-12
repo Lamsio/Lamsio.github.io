@@ -42,7 +42,15 @@
     
       
     <main class="content on">
-      <section class="outer">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<section class="outer">
   <article class="articles">
     
     
@@ -91,11 +99,23 @@
   
 
   
+  
+  
+  <div style="position: fixed;
+        right: 15px;
+        bottom: 0;
+        z-index: 998;">
   <meting-js
-	server="netease"
+	server="xiami"
 	type="playlist"
-	id="60198">
-</meting-js>
+	id="12853988"
+	autoplay=true
+	mini=true
+	fixed=true
+	order=random
+	volume=0.3
+	>
+</meting-js></div>
 </section>
       <footer class="footer">
   <div class="outer">
